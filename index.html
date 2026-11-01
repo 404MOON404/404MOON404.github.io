@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F4F1ED" />
+    <meta name="author" content="Diego Alexis Becerra Murillo" />
+    <meta name="description" content="Portafolio de Diego Alexis Becerra Murillo, desarrollador de software y estudiante de Ingeniería en Electrónica y Computación." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Diego Alexis Becerra Murillo — Desarrollador de software" />
+    <meta property="og:description" content="Software, automatización industrial y proyectos que hacen legible lo complejo." />
+    <title>Diego Alexis Becerra Murillo — Desarrollador de software</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/fonts/instrument-serif-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css?v=28" />
+    <script src="script.js?v=19" defer></script>
+    <noscript><style>.music-player { display: none; }</style></noscript>
+  </head>
+  <body>
+    <a class="skip-link" href="#main"><span data-copy="es">Saltar al contenido</span><span data-copy="en">Skip to content</span></a>
+
+    <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" /></symbol>
+      <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 4v15M6 13l6 6 6-6" /></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16" /></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10-6.5z" fill="currentColor" stroke="none" /></symbol>
+      <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="2.4" /></symbol>
+      <symbol id="i-prev" viewBox="0 0 24 24"><path d="M18 6v12L9 12z" fill="currentColor" stroke="none" /><path d="M6 5v14" /></symbol>
+      <symbol id="i-next" viewBox="0 0 24 24"><path d="M6 6v12l9-6z" fill="currentColor" stroke="none" /><path d="M18 5v14" /></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" /></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16" /></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" /></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5" /><path d="m4 7 8 6 8-6" /></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 2.4a9.6 9.6 0 0 0-3 18.7c.5.1.7-.2.7-.5v-1.8c-2.6.6-3.2-1.1-3.2-1.1-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.1-.2-4.3-1-4.3-4.6 0-1 .4-1.9 1-2.5-.1-.2-.4-1.2.1-2.5 0 0 .8-.3 2.6 1a9 9 0 0 1 4.8 0c1.8-1.3 2.6-1 2.6-1 .5 1.3.2 2.3.1 2.5.6.6 1 1.5 1 2.5 0 3.6-2.2 4.4-4.3 4.6.3.3.6.8.6 1.7v2.5c0 .3.2.6.7.5a9.6 9.6 0 0 0-3-18.7Z" fill="currentColor" stroke="none" /></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M8 10v7M8 7.2v.1M12 17v-4a2.5 2.5 0 0 1 5 0v4M12 10v7" /></symbol>
+      <symbol id="i-location" viewBox="0 0 24 24"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z" /><circle cx="12" cy="10" r="2.5" /></symbol>
+      <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 5h5v5M19 5l-8 8M18 14v5H5V6h5" /></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" /></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z" /></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l5 5 10-11" /></symbol>
+    </svg>
+
+    <header class="site-header" data-nav-open="false">
+      <div class="wrap header-inner">
+        <a class="brand" href="#top" aria-label="Diego Becerra">
+          <span class="brand-mark" aria-hidden="true"><svg class="icon"><use href="#i-moon" /></svg></span>
+          <span class="brand-text">
+            <span class="brand-name">Diego Becerra</span>
+          </span>
+        </a>
+
+        <div class="header-nav-wrap" id="site-nav">
+          <nav class="main-nav" aria-label="Navegación principal">
+            <a href="#work"><span data-copy="es">Proyectos</span><span data-copy="en">Work</span></a>
+            <a href="#about"><span data-copy="es">Sobre mí</span><span data-copy="en">About</span></a>
+            <a href="#experience"><span data-copy="es">Experiencia</span><span data-copy="en">Experience</span></a>
+            <a href="#contact"><span data-copy="es">Contacto</span><span data-copy="en">Contact</span></a>
+          </nav>
+          <a class="header-cv" data-cv-link href="cv/Diego-Becerra-Murillo-CV-ES.pdf" download>
+            <span data-copy="es">CV</span><span data-copy="en">CV</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-download" /></svg>
+          </a>
+        </div>
+
+        <div class="header-tools">
+          <div class="language-toggle" role="group" aria-label="Idioma / Language">
+            <button type="button" data-language-choice="es" aria-pressed="true" aria-label="ES — Español">ES</button>
+            <button type="button" data-language-choice="en" aria-pressed="false" aria-label="EN — English">EN</button>
+          </div>
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+            <span data-copy="es">Menú</span><span data-copy="en">Menu</span>
+            <svg class="icon icon-menu" aria-hidden="true"><use href="#i-menu" /></svg>
+            <svg class="icon icon-close" aria-hidden="true"><use href="#i-close" /></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">
+            <span data-copy="es">Software que hace <em>legible</em> lo complejo.</span>
+            <span data-copy="en">Software that makes complex systems <em>legible</em>.</span>
+          </h1>
+          <p class="hero-lede">
+            <span data-copy="es">Soy Diego Alexis Becerra Murillo, desarrollador de software y estudiante de Ingeniería en Electrónica y Computación en la Universidad de Guadalajara. Trabajo entre backend, frontend y automatización industrial.</span>
+            <span data-copy="en">I’m Diego Alexis Becerra Murillo, a software developer and Electronics &amp; Computing Engineering student at the University of Guadalajara. I work across backend, frontend, and industrial automation.</span>
+          </p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#work">
+              <span data-copy="es">Ver proyectos</span><span data-copy="en">See selected work</span>
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow-down" /></svg>
+            </a>
+            <a class="button button--text" data-cv-link href="cv/Diego-Becerra-Murillo-CV-ES.pdf" download>
+              <span data-copy="es">Descargar CV</span><span data-copy="en">Download CV</span>
+              <svg class="icon" aria-hidden="true"><use href="#i-download" /></svg>
+            </a>
+          </div>
+          <p class="hero-meta">
+            <span class="status"><span class="status-dot" aria-hidden="true"></span><span data-copy="es">Actualmente en prácticas de automatización en Grupo PiSA</span><span data-copy="en">Currently interning in automation at Grupo PiSA</span></span>
+            <a href="#experience"><span data-copy="es">Ver experiencia</span><span data-copy="en">See experience</span><svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+          </p>
+        </div>
+
+        <figure class="hero-portrait">
+          <div class="portrait-frame">
+            <img src="pics/optimized/profile.webp?v=2" width="480" height="560" alt="Retrato de Diego Alexis Becerra Murillo" data-alt-es="Retrato de Diego Alexis Becerra Murillo" data-alt-en="Portrait of Diego Alexis Becerra Murillo" fetchpriority="high" decoding="async" />
+          </div>
+          <figcaption class="portrait-caption">
+            <span><b>Diego Alexis Becerra Murillo</b><span data-copy="es">Desarrollador de software · Tala, Jalisco</span><span data-copy="en">Software developer · Tala, Jalisco</span></span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section work" id="work" aria-labelledby="work-title">
+        <div class="wrap">
+          <header class="section-head">
+            <h2 id="work-title"><span data-copy="es">Trabajo seleccionado</span><span data-copy="en">Selected work</span></h2>
+            <p><span data-copy="es">Proyectos donde los datos, las interfaces y la operación real se encuentran.</span><span data-copy="en">Projects where data, interfaces, and real operations meet.</span></p>
+          </header>
+
+          <article class="feature feature--melody">
+            <div class="melody-intro">
+              <div class="melody-lead">
+                <h3>MelodyLog</h3>
+                <p class="feature-meta"><span data-copy="es">Producto propio</span><span data-copy="en">Independent product</span><span aria-hidden="true">·</span><span data-copy="es">2026 — en vivo</span><span data-copy="en">2026 — live</span></p>
+                <p class="feature-lede"><span data-copy="es">Un diario para la música que de verdad escuchas.</span><span data-copy="en">A diary for the music you actually listen to.</span></p>
+                <ul class="tag-list">
+                  <li>Next.js</li>
+                  <li><span data-copy="es">Producto</span><span data-copy="en">Product</span></li>
+                  <li><span data-copy="es">Música</span><span data-copy="en">Music</span></li>
+                  <li><span data-copy="es">Interfaz</span><span data-copy="en">Interface</span></li>
+                </ul>
+                <p class="feature-actions">
+                  <a class="button button--primary" href="https://melodylog.vercel.app/" target="_blank" rel="noopener noreferrer" data-external>
+                    <span data-copy="es">Abrir MelodyLog</span><span data-copy="en">Open MelodyLog</span>
+                    <svg class="icon" aria-hidden="true"><use href="#i-external" /></svg>
+                  </a>
+                </p>
+              </div>
+              <div class="melody-side">
+                <p class="feature-body"><span data-copy="es">Registra un álbum o una sola canción, ponle una calificación y escribe lo que pensaste. Todo queda en una columna que puedes releer, con la portada y los datos del disco tomados de iTunes, Deezer y Last.fm. Alrededor del diario: charts de lo que está sonando, listas públicas, un pick diario y búsqueda en todo el catálogo.</span><span data-copy="en">Log an album or a single song, rate it, and write what you thought. Everything stays in one column you can read back, with artwork and record data pulled from iTunes, Deezer, and Last.fm. Around the diary: charts of what is moving, public lists, a daily pick, and search across the catalogue.</span></p>
+                <p class="feature-note"><span data-copy="es">En producción desde 2026. Proyecto de fan, sin fines de lucro.</span><span data-copy="en">Live since 2026. A non-commercial fan project.</span></p>
+              </div>
+            </div>
+
+            <div class="melody-window">
+              <div class="window-chrome">
+                <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span class="window-brand">MelodyLog</span>
+                <a class="window-index" href="https://melodylog.vercel.app/" target="_blank" rel="noopener noreferrer" data-external>melodylog.vercel.app</a>
+              </div>
+              <div class="melody-media">
+                <video class="melody-video" id="melody-video" src="brag.mp4" poster="assets/melodylog-tour-poster.webp" muted loop playsinline preload="metadata" controls aria-label="Recorrido del producto MelodyLog">
+                  <span data-copy="es">Tu navegador no puede reproducir este vídeo.</span><span data-copy="en">Your browser cannot play this video.</span>
+                  <a href="brag.mp4"><span data-copy="es">Descargar el vídeo</span><span data-copy="en">Download the video</span></a>.
+                </video>
+              </div>
+              <div class="melody-caption">
+                <span class="melody-live"><i aria-hidden="true"></i><span data-copy="es">Recorrido del producto</span><span data-copy="en">Product walkthrough</span></span>
+                <span>iTunes · Deezer · Last.fm</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature feature--pisa feature--reverse">
+            <div class="feature-copy">
+              <h3><span data-copy="es">Visibilidad de producción en 16 líneas de empaque</span><span data-copy="en">Production visibility across 16 packaging lines</span></h3>
+              <p class="feature-meta">Grupo PiSA<span aria-hidden="true">·</span><span data-copy="es">Prácticas</span><span data-copy="en">Internship</span><span aria-hidden="true">·</span><span data-copy="es">Oct 2026 — presente</span><span data-copy="en">Oct 2026 — present</span></p>
+              <p class="feature-lede"><span data-copy="es">Diseñé flujos de Node-RED que extraen 96 variables vía OPC UA de 16 líneas de empaque, y construí un dashboard que las lee y las guarda automáticamente en SQL.</span><span data-copy="en">I designed Node-RED flows that extract 96 variables over OPC UA from 16 packaging lines, then built a dashboard that reads and stores them automatically in SQL.</span></p>
+              <p class="feature-body"><span data-copy="es">El resultado es una vista de producción que convierte señales de planta en datos consultables para la toma de decisiones técnicas.</span><span data-copy="en">The result is a production view that turns plant signals into queryable data for technical decision-making.</span></p>
+              <ul class="tag-list">
+                <li>Node-RED</li><li>OPC UA</li><li>SQL</li><li><span data-copy="es">Automatización</span><span data-copy="en">Automation</span></li>
+              </ul>
+              <p class="feature-note"><span data-copy="es">Los datos de producción son privados; el diagrama muestra la arquitectura.</span><span data-copy="en">Production data is private; the diagram shows the architecture.</span></p>
+            </div>
+            <div class="feature-visual">
+              <div class="signal-map" aria-hidden="true">
+                <div class="signal-head"><span>PLANT / 2026</span><span>GRUPO PISA</span></div>
+                <div class="signal-chain">
+                  <div class="signal-node"><span>01</span><b>16</b><small><span data-copy="es">líneas de empaque</span><span data-copy="en">packaging lines</span></small></div>
+                  <span class="signal-link"></span>
+                  <div class="signal-node"><span>02</span><b>96</b><small><span data-copy="es">variables OPC UA</span><span data-copy="en">OPC UA variables</span></small></div>
+                  <span class="signal-link"></span>
+                  <div class="signal-node signal-node--light"><span>03</span><b>SQL</b><small><span data-copy="es">dashboard de producción</span><span data-copy="en">production dashboard</span></small></div>
+                </div>
+                <div class="signal-foot"><span>Node-RED</span><span><span data-copy="es">lectura + almacenamiento</span><span data-copy="en">read + store</span></span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature feature--csv feature--wide">
+            <div class="feature-copy">
+              <h3><span data-copy="es">Procesamiento masivo de CSV en Python</span><span data-copy="en">Bulk CSV processing in Python</span></h3>
+              <p class="feature-meta"><span data-copy="es">Proyecto universitario</span><span data-copy="en">University project</span><span aria-hidden="true">·</span><span data-copy="es">Ago — Dic 2024</span><span data-copy="en">Aug — Dec 2024</span></p>
+              <p class="feature-lede"><span data-copy="es">Como asistente de programación, colaboré en un sistema en Python para manejar archivos CSV grandes: lectura, filtrado y generación de gráficas.</span><span data-copy="en">As a programming assistant, I helped build a Python system for handling large CSV files: reading, filtering, and generating graphs.</span></p>
+              <p class="feature-body"><span data-copy="es">El objetivo era hacer más rápido y claro el análisis de datos, sin obligar a trabajar fila por fila.</span><span data-copy="en">The goal was to make data analysis faster and clearer, without forcing anyone to work row by row.</span></p>
+              <ul class="tag-list">
+                <li>Python</li><li>CSV</li><li><span data-copy="es">Visualización</span><span data-copy="en">Visualization</span></li>
+              </ul>
+            </div>
+            <div class="feature-visual">
+              <div class="csv-flow" aria-hidden="true">
+                <div class="csv-head"><span>CSV / PIPELINE</span><span>PYTHON</span></div>
+                <div class="csv-steps">
+                  <div class="csv-step"><span>01</span><b>read</b><small><span data-copy="es">archivo completo</span><span data-copy="en">full file</span></small></div>
+                  <svg class="icon csv-arrow"><use href="#i-arrow" /></svg>
+                  <div class="csv-step"><span>02</span><b>filter</b><small><span data-copy="es">por columna</span><span data-copy="en">by column</span></small></div>
+                  <svg class="icon csv-arrow"><use href="#i-arrow" /></svg>
+                  <div class="csv-step csv-step--chart"><span>03</span><div class="csv-bars"><i style="--h: 42%"></i><i style="--h: 68%"></i><i style="--h: 54%"></i><i style="--h: 88%"></i><i style="--h: 72%"></i></div><small><span data-copy="es">gráfica</span><span data-copy="en">chart</span></small></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <p class="work-more">
+            <a href="https://github.com/404MOON404" target="_blank" rel="noopener noreferrer" data-external>
+              <span data-copy="es">Más proyectos en GitHub</span><span data-copy="en">More projects on GitHub</span>
+              <svg class="icon" aria-hidden="true"><use href="#i-external" /></svg>
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="wrap">
+          <header class="section-head">
+            <h2 id="about-title"><span data-copy="es">Curiosidad por los sistemas.<br />Cuidado en los detalles.</span><span data-copy="en">Curious about systems.<br />Careful with details.</span></h2>
+            <p><span data-copy="es">La parte visible del software es la interfaz. La parte que me interesa es todo lo que la sostiene.</span><span data-copy="en">The visible part of software is the interface. The part I care about is everything holding it up.</span></p>
+          </header>
+          <div class="about-grid">
+            <div class="about-copy">
+              <p><span data-copy="es">Estudio Ingeniería en Electrónica y Computación en el CUValles de la Universidad de Guadalajara. Mi trabajo se mueve entre el software y los sistemas físicos con los que habla: APIs, bases de datos, interfaces y protocolos industriales.</span><span data-copy="en">I study Electronics &amp; Computing Engineering at the University of Guadalajara’s CUValles campus. My work moves between software and the physical systems it talks to: APIs, databases, interfaces, and industrial protocols.</span></p>
+              <p><span data-copy="es">Trabajo principalmente con C/C++ y Python, y con React Native y Node.js para web y móvil. La programación competitiva me entrenó para razonar bajo presión; ser mentor en el club de algoritmia me enseñó a explicar el razonamiento.</span><span data-copy="en">I work mainly in C/C++ and Python, and with React Native and Node.js for web and mobile. Competitive programming trained me to reason under pressure; mentoring in the algorithm club taught me to explain the reasoning.</span></p>
+              <p><span data-copy="es">MelodyLog es donde ese interés por la música y la memoria se convierte en producto. <a href="https://melodylog.vercel.app/" target="_blank" rel="noopener noreferrer" data-external>Está en vivo</a>.</span><span data-copy="en">MelodyLog is where that interest in music and memory becomes a product. <a href="https://melodylog.vercel.app/" target="_blank" rel="noopener noreferrer" data-external>It’s live</a>.</span></p>
+              <p class="about-quote"><span data-copy="es">“Me gusta el software que hace obvio el siguiente paso.”</span><span data-copy="en">“I like software that makes the next step obvious.”</span></p>
+            </div>
+            <div class="about-details">
+              <div class="detail-group">
+                <h3><span data-copy="es">Herramientas</span><span data-copy="en">Toolbox</span></h3>
+                <dl>
+                  <div class="detail-row"><dt><span data-copy="es">Programación</span><span data-copy="en">Programming</span></dt><dd>C/C++ · Python · SQL</dd></div>
+                  <div class="detail-row"><dt><span data-copy="es">Web y móvil</span><span data-copy="en">Web &amp; mobile</span></dt><dd>React Native · Node.js</dd></div>
+                  <div class="detail-row"><dt><span data-copy="es">Automatización</span><span data-copy="en">Automation</span></dt><dd>Node-RED · OPC UA</dd></div>
+                  <div class="detail-row"><dt><span data-copy="es">Flujo de trabajo</span><span data-copy="en">Workflow</span></dt><dd>Git · GitHub · VS Code</dd></div>
+                  <div class="detail-row"><dt><span data-copy="es">Práctica</span><span data-copy="en">Practice</span></dt><dd><span data-copy="es">Algoritmia · trabajo en equipo · mentoría</span><span data-copy="en">Algorithms · teamwork · mentoring</span></dd></div>
+                </dl>
+              </div>
+              <div class="detail-group">
+                <h3><span data-copy="es">Idiomas</span><span data-copy="en">Languages</span></h3>
+                <dl>
+                  <div class="detail-row"><dt><span data-copy="es">Español</span><span data-copy="en">Spanish</span></dt><dd><span data-copy="es">Nativo</span><span data-copy="en">Native</span></dd></div>
+                  <div class="detail-row"><dt><span data-copy="es">Inglés</span><span data-copy="en">English</span></dt><dd><span data-copy="es">Avanzado C1 · certificación Busuu</span><span data-copy="en">Advanced C1 · Busuu certified</span></dd></div>
+                </dl>
+              </div>
+              <div class="detail-group">
+                <h3><span data-copy="es">Formación</span><span data-copy="en">Education</span></h3>
+                <dl>
+                  <div class="detail-row"><dt>2022 — <span data-copy="es">presente</span><span data-copy="en">present</span></dt><dd><span data-copy="es">Ingeniería en Electrónica y Computación, UDG CUValles</span><span data-copy="en">Electronics &amp; Computing Engineering, UDG CUValles</span></dd></div>
+                  <div class="detail-row"><dt>2019 — 2022</dt><dd><span data-copy="es">Bachillerato en Programación, CETIS #161</span><span data-copy="en">Technical Baccalaureate in Programming, CETIS #161</span></dd></div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience" aria-labelledby="experience-title">
+        <div class="wrap">
+          <header class="section-head">
+            <h2 id="experience-title"><span data-copy="es">Dónde he trabajado,<br />estudiado y competido.</span><span data-copy="en">Where I’ve worked,<br />studied, and competed.</span></h2>
+            <p><span data-copy="es">La programación también se trata de pensar en equipo y aprender de cada reto.</span><span data-copy="en">Programming is also about thinking as a team and learning from every challenge.</span></p>
+          </header>
+
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-date">Oct 2026 — <span data-copy="es">presente</span><span data-copy="en">present</span><span class="timeline-type"><span data-copy="es">Prácticas</span><span data-copy="en">Internship</span></span></div>
+              <div class="timeline-body">
+                <h3><span data-copy="es">Desarrollador de automatización</span><span data-copy="en">Automation developer</span></h3>
+                <p class="timeline-org">Grupo PiSA · <span data-copy="es">Tala, Jalisco</span><span data-copy="en">Tala, Jalisco</span></p>
+                <ul>
+                  <li><span data-copy="es">Diseñé flujos en Node-RED para extraer 96 variables vía OPC UA distribuidas en 16 líneas de empaque.</span><span data-copy="en">Designed Node-RED flows to extract 96 variables over OPC UA distributed across 16 packaging lines.</span></li>
+                  <li><span data-copy="es">Construí un dashboard de producción que integra lecturas de variables y almacenamiento automatizado en bases de datos SQL.</span><span data-copy="en">Built a production dashboard integrating variable readings and automated storage into SQL databases.</span></li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-date">2024 — <span data-copy="es">presente</span><span data-copy="en">present</span><span class="timeline-type"><span data-copy="es">Competencia</span><span data-copy="en">Competition</span></span></div>
+              <div class="timeline-body">
+                <h3>ICPC México · <span data-copy="es">finalista nacional</span><span data-copy="en">national finalist</span></h3>
+                <p class="timeline-org"><span data-copy="es">Desarrollador web y de algoritmia</span><span data-copy="en">Web &amp; algorithm developer</span></p>
+                <ul>
+                  <li><span data-copy="es">Resolución continua de problemas algorítmicos complejos y optimización de código en entornos cronometrados.</span><span data-copy="en">Continuous resolution of complex algorithmic problems and code optimization in timed environments.</span></li>
+                  <li><span data-copy="es">Finalista nacional en ICPC México 2024, compitiendo en equipo.</span><span data-copy="en">National finalist at ICPC México 2024, competing as a team.</span></li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-date"><span data-copy="es">Ago — Dic 2024</span><span data-copy="en">Aug — Dec 2024</span><span class="timeline-type"><span data-copy="es">Universidad</span><span data-copy="en">University</span></span></div>
+              <div class="timeline-body">
+                <h3><span data-copy="es">Asistente de programación</span><span data-copy="en">Programming assistant</span></h3>
+                <p class="timeline-org"><span data-copy="es">Proyecto universitario · Universidad de Guadalajara</span><span data-copy="en">University project · University of Guadalajara</span></p>
+                <ul>
+                  <li><span data-copy="es">Colaboré en un sistema en Python para el manejo y procesamiento masivo de archivos CSV.</span><span data-copy="en">Collaborated on a Python system for bulk handling and processing of CSV files.</span></li>
+                  <li><span data-copy="es">Implementé funciones de lectura, filtrado y generación de gráficas para optimizar la visualización y el análisis de datos.</span><span data-copy="en">Implemented data reading, filtering, and graph generation functions to optimize data visualization and analysis.</span></li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-date">2022 — <span data-copy="es">presente</span><span data-copy="en">present</span><span class="timeline-type"><span data-copy="es">Comunidad</span><span data-copy="en">Community</span></span></div>
+              <div class="timeline-body">
+                <h3><span data-copy="es">Club de Algoritmia · UDG</span><span data-copy="en">Algorithm Club · UDG</span></h3>
+                <p class="timeline-org"><span data-copy="es">Miembro activo y mentor de pares</span><span data-copy="en">Active member &amp; peer mentor</span></p>
+                <ul>
+                  <li><span data-copy="es">Acompaño a otros estudiantes a desglosar problemas lógicos y razonar soluciones con claridad.</span><span data-copy="en">I help fellow students break down logical problems and reason through solutions clearly.</span></li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-date">2022 — <span data-copy="es">presente</span><span data-copy="en">present</span><span class="timeline-type"><span data-copy="es">Formación</span><span data-copy="en">Education</span></span></div>
+              <div class="timeline-body">
+                <h3><span data-copy="es">Ingeniería en Electrónica y Computación</span><span data-copy="en">Electronics &amp; Computing Engineering</span></h3>
+                <p class="timeline-org"><span data-copy="es">Universidad de Guadalajara · CUValles</span><span data-copy="en">University of Guadalajara · CUValles</span></p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-date">2019 — 2022<span class="timeline-type"><span data-copy="es">Formación</span><span data-copy="en">Education</span></span></div>
+              <div class="timeline-body">
+                <h3><span data-copy="es">Bachillerato Tecnológico en Programación</span><span data-copy="en">Technical Baccalaureate in Programming</span></h3>
+                <p class="timeline-org">CETIS #161 · <span data-copy="es">Graduado en mayo de 2022</span><span data-copy="en">Graduated May 2022</span></p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="gallery">
+            <div class="gallery-head">
+              <h3>ICPC México</h3>
+              <span>2024 — 2025</span>
+            </div>
+            <div class="photo-grid">
+              <figure class="photo-card">
+                <img src="pics/optimized/icpc-2024-finalists.webp?v=2" width="640" height="384" alt="Equipo finalista en ICPC México 2024" data-alt-es="Equipo finalista en ICPC México 2024" data-alt-en="Finalist team at ICPC Mexico 2024" loading="lazy" decoding="async" />
+                <figcaption><span><b><span data-copy="es">Final nacional</span><span data-copy="en">National finals</span></b><span data-copy="es">Equipo finalista · 2024</span><span data-copy="en">Finalist team · 2024</span></span><span>2024</span></figcaption>
+              </figure>
+              <figure class="photo-card">
+                <img src="pics/optimized/icpc-2025-team.webp?v=2" width="640" height="384" alt="Equipo trabajando durante el concurso ICPC 2025" data-alt-es="Equipo trabajando durante el concurso ICPC 2025" data-alt-en="Team working during the ICPC 2025 contest" loading="lazy" decoding="async" />
+                <figcaption><span><b><span data-copy="es">Resolución en equipo</span><span data-copy="en">Solving as a team</span></b><span data-copy="es">Concurso · 2025</span><span data-copy="en">Contest · 2025</span></span><span>2025</span></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="wrap">
+          <div class="contact-main">
+            <h2 id="contact-title"><span data-copy="es">Construyamos<br />algo útil.</span><span data-copy="en">Let’s build<br />something useful.</span></h2>
+            <p><span data-copy="es">Estoy abierto a prácticas, roles junior y conversaciones sobre software, automatización o una buena idea de producto.</span><span data-copy="en">I’m open to internships, junior roles, and conversations about software, automation, or a good product idea.</span></p>
+            <a class="contact-email" href="mailto:diegobm200414@gmail.com">diegobm200414@gmail.com</a>
+          </div>
+          <div class="contact-side">
+            <p class="contact-location"><svg class="icon" aria-hidden="true"><use href="#i-location" /></svg><span data-copy="es">Tala, Jalisco, México</span><span data-copy="en">Tala, Jalisco, Mexico</span></p>
+            <div class="contact-links">
+              <a href="https://github.com/404MOON404" target="_blank" rel="noopener noreferrer" data-external><span class="link-label"><svg class="icon link-social" aria-hidden="true"><use href="#i-github" /></svg>GitHub</span> <span class="link-value">404MOON404 <svg class="icon" aria-hidden="true"><use href="#i-external" /></svg></span></a>
+              <a href="https://www.linkedin.com/in/diegoalexisbm" target="_blank" rel="noopener noreferrer" data-external><span class="link-label"><svg class="icon link-social" aria-hidden="true"><use href="#i-linkedin" /></svg>LinkedIn</span> <span class="link-value">diegoalexisbm <svg class="icon" aria-hidden="true"><use href="#i-external" /></svg></span></a>
+              <a data-cv-link href="cv/Diego-Becerra-Murillo-CV-ES.pdf" download><span class="link-label"><span data-copy="es">Currículum</span><span data-copy="en">Résumé</span></span> <span class="link-value"><span data-copy="es">Descargar PDF</span><span data-copy="en">Download PDF</span> <svg class="icon" aria-hidden="true"><use href="#i-download" /></svg></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <a class="footer-brand" href="#top">Diego Becerra</a>
+        <span class="footer-note"><span data-copy="es">Diseñado y construido en Jalisco, México.</span><span data-copy="en">Designed and built in Jalisco, Mexico.</span></span>
+        <span>© <span id="year">2026</span> Diego Alexis Becerra Murillo</span>
+      </div>
+    </footer>
+
+    <aside class="music-player" id="music-player" aria-label="Reproductor de música">
+      <div class="player-panel" id="player-panel" inert>
+        <div class="player-progress">
+          <input id="track-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Progreso de la canción" />
+          <div class="player-time"><span id="current-time">0:00</span><span id="duration">0:00</span></div>
+        </div>
+        <p class="player-eyebrow"><span data-copy="es">Mi música favorita</span><span data-copy="en">My favorite music</span></p>
+        <ol class="playlist" id="playlist" aria-label="Lista de reproducción"></ol>
+      </div>
+      <div class="player-bar">
+        <div class="player-disc" aria-hidden="true"><svg class="icon"><use href="#i-moon" /></svg></div>
+        <div class="player-track">
+          <b id="track-title">you suck charlie</b>
+          <span id="track-artist">Joji</span>
+        </div>
+        <div class="player-actions">
+          <button class="player-button" id="previous-track" type="button" aria-label="Canción anterior"><svg class="icon" aria-hidden="true"><use href="#i-prev" /></svg></button>
+          <button class="player-button player-button--play" id="toggle-play" type="button" aria-label="Reproducir"><svg class="icon" aria-hidden="true"><use id="play-icon" href="#i-play" /></svg></button>
+          <button class="player-button" id="next-track" type="button" aria-label="Siguiente canción"><svg class="icon" aria-hidden="true"><use href="#i-next" /></svg></button>
+          <button class="player-button player-expand" id="player-expand" type="button" aria-expanded="false" aria-controls="player-panel" aria-label="Abrir reproductor"><svg class="icon" aria-hidden="true"><use href="#i-chevron" /></svg></button>
+        </div>
+        <span class="sr-only" id="player-status" aria-live="polite">Listo para reproducir</span>
+      </div>
+      <audio id="audio-engine" preload="metadata"></audio>
+    </aside>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local working material that is not part of the published site
+becario-reels/
+pics/formal/
+pics/icpc2024/
+pics/icpc2025/
+
+# Only the two linked CVs are published; legacy CV files stay local
+cv/*.pdf
+!cv/Diego-Becerra-Murillo-CV-ES.pdf
+!cv/Diego-Becerra-Murillo-CV-EN.pdf
