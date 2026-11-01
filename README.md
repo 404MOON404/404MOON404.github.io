@@ -2,14 +2,13 @@
 
 A responsive static portfolio for GitHub Pages, built with plain HTML, CSS, and JavaScript. It opens in Spanish and includes an English toggle, a CV download, and a working music player.
 
+**Live site:** <https://404moon404.github.io/>
+
 ## Publish with GitHub Pages
 
-1. Push this folder to a GitHub repository.
-2. In the repository, open Settings → Pages.
-3. Under Build and deployment, choose Deploy from a branch.
-4. Select the main branch and root folder, then save.
+The site is published from the `main` branch of `404MOON404/404MOON404.github.io` at the repository root. Any push to `main` triggers a new Pages build.
 
-GitHub will show the published address in the Pages settings after deployment finishes.
+To reproduce it on another repository: push this folder, open Settings → Pages, choose Deploy from a branch, select `main` and the root folder, and save. GitHub will show the published address when deployment finishes.
 
 ## Content
 
